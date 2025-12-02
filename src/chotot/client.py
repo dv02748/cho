@@ -16,6 +16,7 @@ class ChototClient:
     def __init__(self, config: ScraperConfig):
         self.config = config
         self.session: Session = Session()
+        self.session.trust_env = self.config.trust_env_proxies
         self.session.headers.update(
             {
                 "user-agent": self.config.user_agent,
