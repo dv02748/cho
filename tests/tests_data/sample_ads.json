@@ -1,0 +1,29 @@
+{
+  "ads": [
+    {
+      "ad_id": 123456,
+      "subject": "Căn hộ studio gần biển Sơn Trà",
+      "price": 7500000,
+      "size": 35,
+      "address": "Phường Phước Mỹ, Sơn Trà, Đà Nẵng",
+      "region_name": "Đà Nẵng",
+      "area_name": "Sơn Trà",
+      "category_name": "Cho thuê căn hộ",
+      "body": "Phòng mới, đầy đủ nội thất, đi bộ 5 phút tới biển.",
+      "account_name": "Mr. Tran",
+      "phone": "0909123456",
+      "latitude": 16.064,
+      "longitude": 108.241,
+      "images": [
+        {"image": "https://images.chotot.com/sample1.jpg"},
+        {"image": "https://images.chotot.com/sample2.jpg"}
+      ],
+      "parameters": [
+        {"name": "ward", "value": "Phước Mỹ"},
+        {"name": "rooms", "value": 1}
+      ],
+      "list_time": 1710000000
+    }
+  ],
+  "total": 1
+}
