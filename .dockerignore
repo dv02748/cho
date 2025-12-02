@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+.venv/
+.git/
+.gitignore
+Dockerfile
+node_modules/
+*.log
+.cache/
+pytest_cache/
