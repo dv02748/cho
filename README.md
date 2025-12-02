@@ -55,6 +55,11 @@ python -m chotot.cli --region 32 --cg 1000 --cgr 1002 --pages 2 --limit 20 --for
 
 # Если корпоративный прокси возвращает 403, отключите переменные HTTP(S)_PROXY
 python -m chotot.cli --region 32 --cg 1000 --cgr 1002 --pages 1 --limit 10 --ignore-env-proxy --output listings.json
+
+# Быстрый скрипт для CLI (создает data/listings.json по умолчанию)
+./scripts/run_cli.sh
+PAGES=3 LIMIT=50 OUTPUT=data/run.json ./scripts/run_cli.sh
+FORMAT=csv ./scripts/run_cli.sh
 ```
 
 ## Архитектура
