@@ -32,6 +32,11 @@ def build_parser() -> argparse.ArgumentParser:
         default="json",
         help="Output format",
     )
+    parser.add_argument(
+        "--ignore-env-proxy",
+        action="store_true",
+        help="Ignore HTTP(S)_PROXY environment variables for direct connections",
+    )
     return parser
 
 
@@ -44,7 +49,11 @@ def main() -> None:
         cgr=args.cgr,
         limit=args.limit,
     )
-    config = ScraperConfig(query=query, delay_seconds=args.delay)
+    config = ScraperConfig(
+        query=query,
+        delay_seconds=args.delay,
+        trust_env_proxies=not args.ignore_env_proxy,
+    )
     scraper = ChototScraper(config)
 
     listings = scraper.scrape(max_pages=args.pages)

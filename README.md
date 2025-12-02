@@ -52,6 +52,9 @@ python -m chotot.cli --region 32 --cg 1000 --cgr 1002 --pages 2 --limit 20 --out
 
 # Сохранить сразу в CSV
 python -m chotot.cli --region 32 --cg 1000 --cgr 1002 --pages 2 --limit 20 --format csv --output listings.csv
+
+# Если корпоративный прокси возвращает 403, отключите переменные HTTP(S)_PROXY
+python -m chotot.cli --region 32 --cg 1000 --cgr 1002 --pages 1 --limit 10 --ignore-env-proxy --output listings.json
 ```
 
 ## Архитектура
