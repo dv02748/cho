@@ -1,0 +1,323 @@
+{
+  "ads": [
+    {
+      "ad_id": 123456,
+      "subject": "Căn hộ studio gần biển Sơn Trà",
+      "price": 7500000,
+      "size": 35,
+      "address": "Phường Phước Mỹ, Sơn Trà, Đà Nẵng",
+      "region_name": "Đà Nẵng",
+      "area_name": "Sơn Trà",
+      "category_name": "Cho thuê căn hộ",
+      "body": "Phòng mới, đầy đủ nội thất, đi bộ 5 phút tới biển. Khu vực yên tĩnh.",
+      "account_name": "Mr. Tran",
+      "phone": "0909123456",
+      "latitude": 16.064,
+      "longitude": 108.241,
+      "images": [
+        {"image": "https://images.chotot.com/studio_danang_1.jpg"},
+        {"image": "https://images.chotot.com/studio_danang_2.jpg"}
+      ],
+      "parameters": [
+        {"name": "ward", "value": "Phước Mỹ"},
+        {"name": "rooms", "value": 1},
+        {"name": "furniture", "value": "full"},
+        {"name": "balcony", "value": true},
+        {"name": "air_conditioning", "value": true}
+      ],
+      "list_time": 1710000000
+    },
+    {
+      "ad_id": 234567,
+      "subject": "Căn hộ 1 phòng ngủ Hải Châu",
+      "price": 6000000,
+      "size": 40,
+      "address": "Hải Châu, Đà Nẵng",
+      "region_name": "Đà Nẵng",
+      "area_name": "Hải Châu",
+      "category_name": "Cho thuê căn hộ",
+      "body": "Căn hộ trung tâm thành phố, gần chợ Hàn",
+      "account_name": "Ms. Linh",
+      "phone": "0911234567",
+      "latitude": 16.047,
+      "longitude": 108.208,
+      "images": [
+        {"image": "https://images.chotot.com/apt_haichau_1.jpg"}
+      ],
+      "parameters": [
+        {"name": "rooms", "value": 1},
+        {"name": "floor", "value": 3},
+        {"name": "furniture", "value": "partial"},
+        {"name": "parking", "value": true},
+        {"name": "elevator", "value": false}
+      ],
+      "list_time": 1710050000
+    },
+    {
+      "ad_id": 345678,
+      "subject": "Cho thuê căn hộ 2PN Vinhomes Ocean Park",
+      "price": 12000000,
+      "size": 70,
+      "address": "Gia Lâm, Hà Nội",
+      "region_name": "Hà Nội",
+      "area_name": "Gia Lâm",
+      "category_name": "Cho thuê căn hộ",
+      "body": "Căn hộ cao cấp tại Vinhomes Ocean Park, đầy đủ tiện ích nội khu",
+      "account_name": "Mr. Hùng",
+      "phone": "0981234567",
+      "latitude": 21.013,
+      "longitude": 105.931,
+      "images": [
+        {"image": "https://images.chotot.com/vinhomes_1.jpg"},
+        {"image": "https://images.chotot.com/vinhomes_2.jpg"},
+        {"image": "https://images.chotot.com/vinhomes_3.jpg"}
+      ],
+      "parameters": [
+        {"name": "rooms", "value": 2},
+        {"name": "bathrooms", "value": 2},
+        {"name": "floor", "value": 12},
+        {"name": "furniture", "value": "full"},
+        {"name": "building_name", "value": "Vinhomes Ocean Park"},
+        {"name": "balcony", "value": true},
+        {"name": "parking", "value": true},
+        {"name": "elevator", "value": true},
+        {"name": "air_conditioning", "value": true},
+        {"name": "direction", "value": "South"}
+      ],
+      "list_time": 1710100000
+    },
+    {
+      "ad_id": 456789,
+      "subject": "Căn hộ 3PN The Sun Avenue Quận 2",
+      "price": 18000000,
+      "size": 95,
+      "address": "Thủ Đức, TP. Hồ Chí Minh",
+      "region_name": "TP. Hồ Chí Minh",
+      "area_name": "Thủ Đức",
+      "category_name": "Cho thuê căn hộ",
+      "body": "Căn 3PN tầng cao, view sông, full nội thất cao cấp. Khu vực An Phú.",
+      "account_name": "Ms. Thảo",
+      "phone": "0903456789",
+      "latitude": 10.799,
+      "longitude": 106.737,
+      "images": [
+        {"image": "https://images.chotot.com/sun_avenue_1.jpg"},
+        {"image": "https://images.chotot.com/sun_avenue_2.jpg"},
+        {"image": "https://images.chotot.com/sun_avenue_3.jpg"},
+        {"image": "https://images.chotot.com/sun_avenue_4.jpg"}
+      ],
+      "parameters": [
+        {"name": "rooms", "value": 3},
+        {"name": "bathrooms", "value": 2},
+        {"name": "floor", "value": 18},
+        {"name": "furniture", "value": "full"},
+        {"name": "building_name", "value": "The Sun Avenue"},
+        {"name": "balcony", "value": true},
+        {"name": "parking", "value": true},
+        {"name": "elevator", "value": true},
+        {"name": "air_conditioning", "value": true},
+        {"name": "direction", "value": "East"},
+        {"name": "pets_allowed", "value": true}
+      ],
+      "list_time": 1710150000
+    },
+    {
+      "ad_id": 567890,
+      "subject": "Cho thuê căn hộ 2PN Pearl Plaza Bình Thạnh",
+      "price": 15000000,
+      "size": 85,
+      "address": "Bình Thạnh, TP. Hồ Chí Minh",
+      "region_name": "TP. Hồ Chí Minh",
+      "area_name": "Bình Thạnh",
+      "category_name": "Cho thuê căn hộ",
+      "body": "Căn hộ cao cấp, view đẹp, đầy đủ tiện nghi. Gần Landmark 81.",
+      "account_name": "Ms. Nguyen",
+      "phone": "0912345678",
+      "latitude": 10.803,
+      "longitude": 106.705,
+      "images": [
+        {"image": "https://images.chotot.com/pearl1.jpg"},
+        {"image": "https://images.chotot.com/pearl2.jpg"},
+        {"image": "https://images.chotot.com/pearl3.jpg"}
+      ],
+      "parameters": [
+        {"name": "rooms", "value": 2},
+        {"name": "bathrooms", "value": 2},
+        {"name": "floor", "value": 5},
+        {"name": "furniture", "value": "full"},
+        {"name": "building_name", "value": "Pearl Plaza"},
+        {"name": "balcony", "value": true},
+        {"name": "parking", "value": true},
+        {"name": "elevator", "value": true},
+        {"name": "air_conditioning", "value": true},
+        {"name": "direction", "value": "South"},
+        {"name": "pets_allowed", "value": false}
+      ],
+      "list_time": 1710100000
+    },
+    {
+      "ad_id": 678901,
+      "subject": "Studio mini giá rẻ gần ĐH Bách Khoa",
+      "price": 4500000,
+      "size": 25,
+      "address": "Hai Bà Trưng, Hà Nội",
+      "region_name": "Hà Nội",
+      "area_name": "Hai Bà Trưng",
+      "category_name": "Cho thuê căn hộ",
+      "body": "Phòng mới xây, phù hợp sinh viên. Có ban công nhỏ.",
+      "account_name": "Mr. Nam",
+      "phone": "0967890123",
+      "latitude": 21.005,
+      "longitude": 105.843,
+      "images": [
+        {"image": "https://images.chotot.com/studio_hanoi.jpg"}
+      ],
+      "parameters": [
+        {"name": "rooms", "value": 1},
+        {"name": "floor", "value": 2},
+        {"name": "furniture", "value": "none"},
+        {"name": "balcony", "value": true},
+        {"name": "air_conditioning", "value": false}
+      ],
+      "list_time": 1710200000
+    },
+    {
+      "ad_id": 789012,
+      "subject": "Duplex 4PN Saigon Pearl Bình Thạnh",
+      "price": 35000000,
+      "size": 160,
+      "address": "Bình Thạnh, TP. Hồ Chí Minh",
+      "region_name": "TP. Hồ Chí Minh",
+      "area_name": "Bình Thạnh",
+      "category_name": "Cho thuê căn hộ",
+      "body": "Duplex cao cấp 4PN, view sông panorama, nội thất sang trọng.",
+      "account_name": "Mr. Khoa",
+      "phone": "0923456789",
+      "latitude": 10.795,
+      "longitude": 106.719,
+      "images": [
+        {"image": "https://images.chotot.com/duplex_1.jpg"},
+        {"image": "https://images.chotot.com/duplex_2.jpg"},
+        {"image": "https://images.chotot.com/duplex_3.jpg"},
+        {"image": "https://images.chotot.com/duplex_4.jpg"},
+        {"image": "https://images.chotot.com/duplex_5.jpg"}
+      ],
+      "parameters": [
+        {"name": "rooms", "value": 4},
+        {"name": "bathrooms", "value": 3},
+        {"name": "floor", "value": 25},
+        {"name": "furniture", "value": "full"},
+        {"name": "building_name", "value": "Saigon Pearl"},
+        {"name": "apartment_type", "value": "duplex"},
+        {"name": "balcony", "value": true},
+        {"name": "parking", "value": true},
+        {"name": "elevator", "value": true},
+        {"name": "air_conditioning", "value": true},
+        {"name": "direction", "value": "North"},
+        {"name": "pets_allowed", "value": true}
+      ],
+      "list_time": 1710250000
+    },
+    {
+      "ad_id": 890123,
+      "subject": "Căn hộ 2PN giá tốt Ngũ Hành Sơn",
+      "price": 8000000,
+      "size": 65,
+      "address": "Ngũ Hành Sơn, Đà Nẵng",
+      "region_name": "Đà Nẵng",
+      "area_name": "Ngũ Hành Sơn",
+      "category_name": "Cho thuê căn hộ",
+      "body": "Gần biển Mỹ Khê, có sân phơi riêng. Chung cư mới xây.",
+      "account_name": "Ms. Mai",
+      "phone": "0934567890",
+      "latitude": 16.029,
+      "longitude": 108.251,
+      "images": [
+        {"image": "https://images.chotot.com/danang_nhs_1.jpg"},
+        {"image": "https://images.chotot.com/danang_nhs_2.jpg"}
+      ],
+      "parameters": [
+        {"name": "rooms", "value": 2},
+        {"name": "bathrooms", "value": 1},
+        {"name": "floor", "value": 7},
+        {"name": "furniture", "value": "partial"},
+        {"name": "balcony", "value": true},
+        {"name": "parking", "value": true},
+        {"name": "elevator", "value": true},
+        {"name": "air_conditioning", "value": true}
+      ],
+      "list_time": 1710300000
+    },
+    {
+      "ad_id": 901234,
+      "subject": "Penthouse 5PN Vinhomes Central Park",
+      "price": 85000000,
+      "size": 250,
+      "address": "Bình Thạnh, TP. Hồ Chí Minh",
+      "region_name": "TP. Hồ Chí Minh",
+      "area_name": "Bình Thạnh",
+      "category_name": "Cho thuê căn hộ",
+      "body": "Penthouse đỉnh cao sang trọng, sân vườn riêng, view thành phố 360°. Nội thất nhập khẩu Ý.",
+      "account_name": "Mr. Phong",
+      "phone": "0945678901",
+      "latitude": 10.789,
+      "longitude": 106.721,
+      "images": [
+        {"image": "https://images.chotot.com/penthouse_1.jpg"},
+        {"image": "https://images.chotot.com/penthouse_2.jpg"},
+        {"image": "https://images.chotot.com/penthouse_3.jpg"},
+        {"image": "https://images.chotot.com/penthouse_4.jpg"},
+        {"image": "https://images.chotot.com/penthouse_5.jpg"},
+        {"image": "https://images.chotot.com/penthouse_6.jpg"}
+      ],
+      "parameters": [
+        {"name": "rooms", "value": 5},
+        {"name": "bathrooms", "value": 4},
+        {"name": "floor", "value": 36},
+        {"name": "furniture", "value": "full"},
+        {"name": "building_name", "value": "Vinhomes Central Park"},
+        {"name": "apartment_type", "value": "penthouse"},
+        {"name": "balcony", "value": true},
+        {"name": "parking", "value": true},
+        {"name": "elevator", "value": true},
+        {"name": "air_conditioning", "value": true},
+        {"name": "direction", "value": "South"},
+        {"name": "pets_allowed", "value": true}
+      ],
+      "list_time": 1710350000
+    },
+    {
+      "ad_id": 112233,
+      "subject": "Căn hộ 1PN The Manor Mỹ Đình",
+      "price": 9000000,
+      "size": 55,
+      "address": "Nam Từ Liêm, Hà Nội",
+      "region_name": "Hà Nội",
+      "area_name": "Nam Từ Liêm",
+      "category_name": "Cho thuê căn hộ",
+      "body": "Căn hộ cao cấp tại The Manor, gần Keangnam. Tiện ích đầy đủ.",
+      "account_name": "Ms. Hoa",
+      "phone": "0956789012",
+      "latitude": 21.018,
+      "longitude": 105.780,
+      "images": [
+        {"image": "https://images.chotot.com/manor_1.jpg"},
+        {"image": "https://images.chotot.com/manor_2.jpg"}
+      ],
+      "parameters": [
+        {"name": "rooms", "value": 1},
+        {"name": "bathrooms", "value": 1},
+        {"name": "floor", "value": 15},
+        {"name": "furniture", "value": "full"},
+        {"name": "building_name", "value": "The Manor"},
+        {"name": "balcony", "value": true},
+        {"name": "parking", "value": true},
+        {"name": "elevator", "value": true},
+        {"name": "air_conditioning", "value": true},
+        {"name": "direction", "value": "West"}
+      ],
+      "list_time": 1710400000
+    }
+  ],
+  "total": 10
+}
