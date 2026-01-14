@@ -7,6 +7,7 @@ set -euo pipefail
 #   PAGES=3 LIMIT=50 OUTPUT=data/run.json ./scripts/run_cli.sh
 #   FORMAT=csv ./scripts/run_cli.sh          # save CSV instead of JSON
 #   IGNORE_ENV_PROXY=true ./scripts/run_cli.sh
+#   KEYWORD="căn hộ" ALL_PAGES=true ./scripts/run_cli.sh
 
 ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT_DIR"
@@ -21,6 +22,8 @@ DELAY=${DELAY:-1.0}
 FORMAT=${FORMAT:-json}
 OUTPUT=${OUTPUT:-data/listings.${FORMAT}}
 IGNORE_ENV_PROXY=${IGNORE_ENV_PROXY:-false}
+KEYWORD=${KEYWORD:-}
+ALL_PAGES=${ALL_PAGES:-false}
 
 mkdir -p "$(dirname "$OUTPUT")"
 
@@ -44,6 +47,14 @@ fi
 
 if [[ "$IGNORE_ENV_PROXY" == "true" ]]; then
   CMD+=(--ignore-env-proxy)
+fi
+
+if [[ -n "$KEYWORD" ]]; then
+  CMD+=(--keyword "$KEYWORD")
+fi
+
+if [[ "$ALL_PAGES" == "true" ]]; then
+  CMD+=(--all-pages)
 fi
 
 # Allow passing extra CLI args directly, e.g. --help or --format csv
