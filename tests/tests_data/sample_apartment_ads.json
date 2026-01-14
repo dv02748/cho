@@ -1,0 +1,67 @@
+{
+  "ads": [
+    {
+      "ad_id": 123456,
+      "subject": "Căn hộ studio gần biển Sơn Trà",
+      "price": 7500000,
+      "size": 35,
+      "address": "Phường Phước Mỹ, Sơn Trà, Đà Nẵng",
+      "region_name": "Đà Nẵng",
+      "area_name": "Sơn Trà",
+      "category_name": "Cho thuê căn hộ",
+      "body": "Phòng mới, đầy đủ nội thất, đi bộ 5 phút tới biển.",
+      "account_name": "Mr. Tran",
+      "phone": "0909123456",
+      "latitude": 16.064,
+      "longitude": 108.241,
+      "images": [
+        {"image": "https://images.chotot.com/sample1.jpg"},
+        {"image": "https://images.chotot.com/sample2.jpg"}
+      ],
+      "parameters": [
+        {"name": "ward", "value": "Phước Mỹ"},
+        {"name": "rooms", "value": 1},
+        {"name": "furniture", "value": "full"},
+        {"name": "balcony", "value": true},
+        {"name": "air_conditioning", "value": true}
+      ],
+      "list_time": 1710000000
+    },
+    {
+      "ad_id": 789012,
+      "subject": "Cho thuê căn hộ 2 phòng ngủ Pearl Plaza",
+      "price": 15000000,
+      "size": 85,
+      "address": "Bình Thạnh, TP. Hồ Chí Minh",
+      "region_name": "TP. Hồ Chí Minh",
+      "area_name": "Bình Thạnh",
+      "category_name": "Cho thuê căn hộ",
+      "body": "Căn hộ cao cấp, view đẹp, đầy đủ tiện nghi.",
+      "account_name": "Ms. Nguyen",
+      "phone": "0912345678",
+      "latitude": 10.803,
+      "longitude": 106.705,
+      "images": [
+        {"image": "https://images.chotot.com/pearl1.jpg"},
+        {"image": "https://images.chotot.com/pearl2.jpg"},
+        {"image": "https://images.chotot.com/pearl3.jpg"}
+      ],
+      "parameters": [
+        {"name": "ward", "value": "Ward 2"},
+        {"name": "rooms", "value": 2},
+        {"name": "bathrooms", "value": 2},
+        {"name": "floor", "value": 5},
+        {"name": "furniture", "value": "full"},
+        {"name": "building_name", "value": "Pearl Plaza"},
+        {"name": "balcony", "value": true},
+        {"name": "parking", "value": true},
+        {"name": "elevator", "value": true},
+        {"name": "air_conditioning", "value": true},
+        {"name": "direction", "value": "South"},
+        {"name": "pets_allowed", "value": false}
+      ],
+      "list_time": 1710100000
+    }
+  ],
+  "total": 2
+}
