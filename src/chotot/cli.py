@@ -22,7 +22,18 @@ def build_parser() -> argparse.ArgumentParser:
         default=1002,
         help="Category (1002=for rent). Adjust to scrape other categories.",
     )
+    parser.add_argument(
+        "--keyword",
+        type=str,
+        default=None,
+        help="Optional keyword filter (e.g. 'căn hộ' for apartments).",
+    )
     parser.add_argument("--pages", type=int, default=1, help="Number of pages to fetch")
+    parser.add_argument(
+        "--all-pages",
+        action="store_true",
+        help="Fetch all pages until the API reports no more ads or total is reached.",
+    )
     parser.add_argument("--limit", type=int, default=20, help="Ads per page")
     parser.add_argument("--delay", type=float, default=1.0, help="Delay between page fetches")
     parser.add_argument("--output", type=Path, default=Path("listings.json"), help="Output file path")
@@ -48,6 +59,7 @@ def main() -> None:
         cg=args.cg,
         cgr=args.cgr,
         limit=args.limit,
+        keyword=args.keyword,
     )
     config = ScraperConfig(
         query=query,
@@ -56,7 +68,8 @@ def main() -> None:
     )
     scraper = ChototScraper(config)
 
-    listings = scraper.scrape(max_pages=args.pages)
+    max_pages = None if args.all_pages else args.pages
+    listings = scraper.scrape(max_pages=max_pages)
     if args.format == "json":
         scraper.dump_to_json(listings, str(args.output))
     else:
